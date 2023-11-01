@@ -1,0 +1,17 @@
+{
+	"name": "service/phone_carrier_lookup",
+	"type": "library",
+	"description": "Библиотека для определения сотового оператора по номеру телефона",
+	"autoload": {
+		"psr-4": {
+			"PhoneCarrierLookup\\": "src/"
+		}
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@git.skn.dev:service/phone_carrier_lookup"
+		}
+	],
+	"require": {}
+}
